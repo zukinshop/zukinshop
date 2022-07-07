@@ -39,7 +39,7 @@
     padding: 16px 5px; 
 }
 .header-right a:hover{
-    background-color: gray;
+    background-color: #808080;
     transition: background-color 0.5s;
 }
 .footer{
