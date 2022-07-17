@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0;
 }
-.main-visual{
-    padding:90px 0;
-    text-align:center;
-}
 .h1{
     font-size: 60px;
 }
@@ -71,3 +67,19 @@
 .text-align-center{
     text-align: center;
 }
+.last{
+    padding-bottom: 120px;
+}
+.top{
+    padding-top:90px;
+}
+.title{
+    margin-bottom: 1.5em;
+}
+.box{
+    margin:0 auto;
+    padding:20px 0;
+    max-width:80%;
+    background-color: #f3f3f2;
+    border-radius: 5px;
+} 

@@ -1,1 +1,7 @@
 @charset "utf-8";
+.guideline{
+    text-align: center;
+    padding:20px 0;
+    border-radius: 5px;
+    line-height:30px;
+}
