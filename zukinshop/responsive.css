@@ -1,0 +1,24 @@
+@charset "utf-8";
+@media (max-width: 1024px){ 
+    .item-card{
+        width: 50%;
+     }
+}
+@media (max-width: 670px){
+    .box{
+        max-width:90%;
+    }
+    .header a{
+        font-size: 14px;
+    }
+    .footer-right{
+        padding-top: 20px;
+    }
+    .last{
+    padding-bottom: 180px;
+    }
+    .item-card{
+    width: 50%;
+    }
+}
+ 

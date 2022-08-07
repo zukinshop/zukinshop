@@ -1,0 +1,15 @@
+@charset "utf-8";
+.item{
+
+}
+.item-card{
+    width:33%;
+    margin:20px 10px 10px;
+    padding:25px 25px;
+    background-color: #dcdcdc;
+    border-radius: 7px;
+    box-shadow: 1px 1px 4px #d2d4d6;
+}
+.item-card-inner{
+
+}
