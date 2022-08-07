@@ -38,9 +38,10 @@ h2{
     padding:20px 1em;
     margin:30px auto;
     max-width: 80%;
-    background-color: #f3f3f2;
+    background-color: #dbe0e4;
     border-radius: 5px;
     line-height: 2em;
+    box-shadow: 1px 1px 4px #d2d4d6;
 }
 .box a{
     padding:0.5em 0;
