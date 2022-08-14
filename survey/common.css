@@ -1,0 +1,108 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+/*文字全般関係*/
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 25px;
+}
+.title{
+    line-height:1.5em;
+    margin-bottom: 8px;
+}
+/*一般物*/
+.center{
+    margin: 0 auto;
+    text-align:center;
+}
+.top{
+    padding-top:90px;
+}
+.last{
+    padding-bottom:120px;
+}
+.container{
+    max-width: 980px;
+    padding: 0 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sentence{
+    /*文章を左揃えにする*/
+    justify-content: center;
+}
+.clear{
+    clear:both;
+}
+/*box関係*/
+.box{
+    padding:20px 1em;
+    margin:30px auto;
+    max-width: 80%;
+    background-color: #dbe0e4;
+    border-radius: 5px;
+    line-height: 2em;
+    box-shadow: 1px 1px 4px #d2d4d6;
+}
+.box a{
+    padding:0.5em 0;
+}
+.box a:hover{
+    background-color: #ffffff;
+    transition: background-color 0.5s;
+}
+
+/*img関係*/
+img{
+    display: block;
+}
+.top-image{
+    height:80px;
+    width:200px;
+}
+/*ヘッダー関係*/
+.header{
+    height: 56px;
+    width:100%;
+    background-color:#000000;
+    box-shadow: 0 0 10px;
+    position:fixed;
+    top:0;
+}
+.header a{
+    color:#ffffff;
+    line-height:56px;
+    margin-left:10px;
+    font-size:16px;
+    padding:16px 5px;
+}
+.header a:hover{
+    background-color: #808080;
+    transition: background-color 0.5s;
+}
+
+/*フッター関係*/
+.footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color:#000000;
+    color:#e8e8e8;
+    padding-top:20px;
+    box-shadow:0 0 10px #000000;
+}
+.footer-left{
+    float:left;
+}
+.footer-left p{
+    margin-bottom:8px
+}
+.footer-right{
+    float:right;
+    padding-top:0;
+}
